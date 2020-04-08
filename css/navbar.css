@@ -1,0 +1,63 @@
+body {
+    background-color: #F0F1F3;
+}
+.fa-graduation-cap {
+    color: #ccc;
+    transform: rotate(-15deg);
+}
+.brand-title {
+    font-size: 1.5rem;
+}
+.nav-item .search-box {
+    background-color: #F1F2F4;
+    box-shadow: 0px 0px 2px #aaa;
+    width: 25rem;
+    padding-left: 1rem;
+}
+.nav-item .fa-search {
+    transform: translateX(-2rem);
+    color: #707070;
+}
+.nav-item .group-notice {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.nav-item .group-notice .notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #F1F2F4;
+    color: #707070;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+}
+.nav-item .group-notice .notice:first-child {
+    margin-right: .8rem;
+}
+.admin {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor: pointer;
+}
+.nav-item .avatar {
+    background-image: url(./img/teacher-avatar.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: -50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: .4rem;
+}
+.nav-item .user-name .name {
+    font-size: .8rem;
+    font-weight: 600;
+}
+.nav-item .user-name .lead {
+    font-size: .7rem;
+}

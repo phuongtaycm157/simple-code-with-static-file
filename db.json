@@ -1,0 +1,28 @@
+{
+    "students": [
+        {
+            "id": "1",
+            "studentId": "B1900346",
+            "name": "Richi Hassan",
+            "gender": 0,
+            "birthDate": "03/04/2003",
+            "email": "richihanssan@gmail.com",
+            "class": 2,
+            "section": "A",
+            "adress": "Ta-107 Sydenye, Australia",
+            "phone": "+88255600"
+        },
+        {
+            "id": "2",
+            "studentId": "B1932145",
+            "name": "Kazin Fahim",
+            "gender": 1,
+            "birthDate": "10/04/2003",
+            "email": "kazinfahim@gmail.com",
+            "class": 1,
+            "section": "A",
+            "adress": "95,street, North Sydney",
+            "phone": "+88120088"
+        }
+    ]
+}
