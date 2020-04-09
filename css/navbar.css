@@ -46,7 +46,7 @@ body {
     cursor: pointer;
 }
 .nav-item .avatar {
-    background-image: url(./img/teacher-avatar.jpg);
+    background-image: url(../img/teacher-avatar.jpg);
     background-size: cover;
     background-position: center;
     border-radius: -50%;
@@ -60,4 +60,23 @@ body {
 }
 .nav-item .user-name .lead {
     font-size: .7rem;
+}
+.table-light tbody+tbody, .table-light td, .table-light th, .table-light thead th {
+    border-color: #e8dddd;
+    font-size: .8rem;
+    text-align: center;
+}
+.table tbody tr td .icon{
+    padding-left: .2rem;
+    padding-right: .2rem;
+    cursor: pointer;
+}
+.table tbody tr td .fa-eye {
+    color: #969696;
+}
+.table tbody tr td .fa-edit {
+    color: #42D072;
+}
+.table tbody tr td .fa-trash-alt {
+    color: #a10000;
 }

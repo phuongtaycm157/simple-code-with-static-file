@@ -1,0 +1,11 @@
+.bg-breadcrumb {
+	background-color: #F0F1F3;
+}
+
+.nav-item a:first-child {
+  color: #42D072;
+  margin: 1rem;
+}
+.nav-item a:last-child {
+  color: #a10000;
+}
